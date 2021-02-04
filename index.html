@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![end if]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![end if]-->
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specifc Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Stylessheets -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicon and Apple Icons -->
+	<link rel="shortcut icon" href="images/icons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="images/icons/apple-touch-icon-72x72.png" sizes="72x72"> 
+	<link rel="apple-touch-icon" href="images/icons/apple-touch-icon-114x114.png" sizes="114x114">
+</head>
+
+<body>
+	<div class="website-container">
+  <header>
+		<div class="relative-wrapper">
+			<a href=""><img src="/assets/img/BlackLogo 3.jpg"></a>
+			<nav class = "main-nav">
+				<ul class = "main-unsorted-list">
+					<li>
+						<a href="">Ideja</a>
+					</li>
+					<li>
+						<a href="">Piesaki Sapni</a>
+					</li>
+					<li>
+						<a href="">Uzņēmējiem</a>
+					</li>
+					<li>
+						<a href="">Sapņu Banka</a>
+					</li>
+					<li>
+						<a href="">Sapņus Atbalsta</a>
+					</li>
+					<li>
+						<a href="">99 Iedvesmas stāsti</a>
+					</li>
+					<li>
+						<div class="language-container">
+							<ul class = language-unsorted-list>
+								<li id = 'lv' >
+									<a href="#lv" data-reload = ''>LV</a>
+								</li>
+								<li id = 'en'>
+									<a href="#en" data-reload = ''>ENG</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<div class='burger'>
+					<div class=line1></div>
+					<div class='line2'></div>
+					<div class='line3'></div>
+				</div>
+			</nav>
+		</div>
+		<img src="/assets/img/vector.svg" class="svg-vector-template"  id = "headerSvg">
+	</header>
+  <main>
+		<section>
+			<div class="video-wrapper">
+				<img src="/assets/img/Sparkle Video 1.png"  class="sparkle-video-1" alt="">
+				<div class="group-2-png">
+				</div>
+			</div>
+			<div class="text-sparklehearts ">
+				<p class="monserrat24 blue">SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padraītu par labāku vietu mums visiem. Mēs esam gatavi palīdzēt Tev oiepildīt sapni. 
+					Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</p>
+			</div>
+				<div class="outter-galery-wrapper">
+					<img src="/assets/img/vector.svg" class = "svg-vector-template " style = "top: -2px" alt="">
+					<div class="inner-galery-wrapper">
+						<div class="zanda">
+							<img src="assets/img/Zanda_1.jpg" alt="">
+						</div>
+						<div class="sibilla">
+							<img src="assets/img/Sibilla_4.jpg" alt="">
+						</div>
+						<div class="brinuma-meita">
+							<img src="assets/img/Brinuma_meita-15.jpg" alt="">
+						</div>
+						<div class="alina">
+							<img src="assets/img/Alina_1 1.jpg" alt="">						</div>
+						<div class="anda">
+							<img src="assets/img/Anda_2 1.jpg" alt="">
+						</div>
+					</div>
+					<img src="/assets/img/vector.svg" class = "svg-vector-template absolute-bottom rotate-180" style = "bottom: -2px" alt="">
+					</div>
+				</div>
+			</div>
+		
+			<div class="outter-piepildi-sapni-wrapper">
+				<div class="inner-sapnotajiem-text-wrapper oswald-blue-24 text1">
+					<p>Vēlies piepildīt savu sapni?</p>
+				</div>
+				<div class="inner-sapnotajiem-text-wrapper oswald-blue-24 text2">
+					<p>Vēlies palīdzēt kādam piepildīt sapni?</p>
+				</div>
+				<div class="inner-button-sapnotajiem-wrapper button1">
+					<div class="button-sapnotajiem">
+						<a href="" class="vertical monserrat18">Sapņotājiem</a>
+					</div>
+				</div>
+				<div class="inner-button-sapnotajiem-wrapper button2">
+					<div class="button-sapnotajiem">
+						<a href=""class="vertical monserrat18">Uzņēmējiem</a>
+					</div>
+				</div>
+			</div>
+			<form action="javascript:alert('submitted');" method="post" id="contactForm">
+				<div class="form-container" id = "form-container">
+				<h2 style="text-align: center; margin-top: 7%; margin-bottom: 7%;">Sazināties ar mums</h2>
+				<div class="name-email-wrapper">
+					<div class="field-name">
+						<input type="text" placeholder="Vārds, Uzvārds*" required>
+					</div>
+					<div class="field-email">
+						<input type="email" placeholder="E-pasts*" required>
+					</div>
+				</div>
+				<div class="tel-quest-wrapper">
+					<div class="field-tel">
+						<input type="tel" placeholder="Telefons*" required>
+					</div>
+					<div class="field-question">
+						<textarea type="text" placeholder="Jautājums vai komentārs*"></textarea>
+					</div>
+					<span>* obligāti aizpildāmie lauki</span>
+					<div class="checkbox-area-wrapper">
+						<input type="checkbox" id="input-form-container" class="checkbox-wrapper">
+						<label for="input-form-container">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+					</div>
+					<div class="inner-button-sapnotajiem-wrapper">
+						<div class="button-sapnotajiem">
+							<a href=""class="vertical monserrat18" >Sūtīt</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</form >
+			<div class="outter-atbalstitaji-wrapper ">
+				<img src="/assets/img/vector.svg" class = "svg-vector-template " style = "top: -4px" alt="">
+				<div class="inner-atbalstitaji-wrapper ">
+					<h3>Atbalstītāji</h3>
+					<div class="atbalstitaji-wrapper ">
+							<img src="/assets/img/getlogo 1.png" class = "teikums"alt="">
+							<img src="/assets/img/sem_logo-2 1.png" class = "sem" alt="">
+							<img src="/assets/img/Citybee-logo 1.png" class = "citybee"alt="">
+							<img src="/assets/img/logo1 1.png" class = "linearis" alt="">
+					</div>
+				</div>
+				<img src="/assets/img/vector_blue.svg" class = "svg-vector-template rotate-180 absolute-bottom" alt="">
+
+			</div>
+		</section>
+	</main>
+	<div class="footer-container">
+	<footer>
+		<div class="outter-footer-wrapper">
+			<div class="inner-footer-wrapper">
+				<div class="footer-logo-wrapper">
+					<img src="/assets/img/GoldenV2Logo 3.png" alt="">
+				</div>
+				<div class="piedavajumi-wrapper" >		
+					<a href="" class="monserrat18">Ideja</a>
+					<a href=""class="monserrat18">Piesaki Sapni</a>						
+					<a href=""class="monserrat18">Uzņēmējiem</a>					
+					<a href=""class="monserrat18">Sapņu Banka</a>				
+					<a href=""class="monserrat18">Sapņus Atbalsta</a>					
+					<a href=""class="monserrat18">99 Iedvesmas stāsti</a>
+				</div>
+				<div class="rekviziti-wrapper">
+					<p class="monserrat24" style="padding-bottom: 20px;">Biedrība SparkleHeart</p>
+					<p class="monserrat18">Reģistrācijas nr. 40008293119</p>
+					<p class="monserrat18">Banka: SWEDBANK A/S</p>
+					<p class="monserrat18">LV52HABA0551047652465</p>
+				</div>
+				<div class="kontaktinfo-wrapper">
+					<div class="under-golden-logo">
+						<p class="monserrat24">Juris Gogulis</a>
+					</div>
+					<a href="" class="monserrat18">juris.gogulis@sparkleheart.org</a>
+					<a href="" class="monserrat18">+37126890034</a>
+					<a href="" class="monserrat18">Biķernieku iela 24a -5, LV-1006</a>
+					<p class="mouse-event clickable-pointer change-visibility monserrat24" style="padding-bottom: 1.5rem;">Skatīt rekvizītus</p>
+					<div class="rekviziti-dropdown-wrapper visibility-js">
+						<p class="monserrat24" style="padding-bottom: 20px;">Biedrība SparkleHeart</p>
+						<p class="monserrat18">Reģistrācijas nr. 40008293119</p>
+						<p class="monserrat18">Banka: SWEDBANK A/S</p>
+						<p class="monserrat18">LV52HABA0551047652465</p>
+					</div>
+					<div class="media-wrapper">
+						<div class="facebook-img">
+						<a href=""><img src="/assets/img/Vector (1).png" alt=""></a>
+						</div>
+						<div class="instagram-img"></div>
+						<a href=""><img src="/assets/img/Vector (2).png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mini-footer-wrapper">
+				<div class="tiesibas-wrapper">
+					<p class="monserrat14">© SparkleHeart 2021.
+						Visas tiesības aizsargātas.
+						</p>
+				</div>
+				<div class="politika-wrapper">
+					<a href="" class="monserrat14">Privātuma politika</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+</div>
+	<!-- JavaScript -->
+	<script src="/assets/js/theme.js"></script>
+</body>
+</html>
