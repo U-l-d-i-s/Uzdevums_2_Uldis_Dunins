@@ -18,13 +18,10 @@
 }
 html, 
 body{
-  /* width: 100%;
-  height: 100%; */
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
   scroll-behavior: smooth;
-  
 }
 .website-container{
   position: relative;
@@ -87,7 +84,6 @@ header{
   max-width: 100vw;
   display: flex;
   justify-content: space-between;
-  
 }
 li{
   position: relative;
@@ -111,7 +107,6 @@ header a{
   position: absolute;
   right:3vw;
   top: 2vw;
-
 }
 .burger
 div{
@@ -167,7 +162,6 @@ section{
   position: relative;
   min-height: 100vh;
   width: auto;
-  
 }
 .video-wrapper{
   position: relative;
@@ -192,22 +186,16 @@ section{
   background-size: cover;
   background-repeat: no-repeat;
   transition: ease .8;
-  /* -moz-transform: scale(1.2); */
   -moz-transition: ease 0.8;
-  
 }
   .group-2-png:hover{
     transform: scale(1.2);
-    /* transition: ease all .2; */
-    
 }
 .sparkle-video-1{
- 
   width: 100%;
   height: auto;
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
 .text-sparklehearts{
   position: relative;
@@ -310,7 +298,6 @@ a{
   border-radius: 2em;
   width: 235px;
   height: 50px;
-
 }
 .button-sapnotajiem :hover{
   background-color: #FFCB66;
@@ -320,7 +307,6 @@ a:link.vertical{
   justify-content: center;
   align-items: center;
 }
-
 .form-container{
   position: relative;
   margin-top: 12vh;
@@ -351,7 +337,6 @@ textarea{
 
   color: #2F4858;
 }
-
 .field-name 
 input{
   width: 100%;
@@ -377,7 +362,6 @@ textarea{
   margin-bottom: 1%;
   justify-content: space-between;
   width: 100%;
-  
 }
 .field-name, 
 .field-email{
@@ -609,8 +593,6 @@ p{
   height: 100%;
   overflow: hidden; 
 }
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
  
   .kontaktinfo-wrapper{
@@ -745,7 +727,6 @@ p{
   .text1{
     grid-column: 1/2;
     grid-row: 1/2;
-    
   }
   .text2{
     grid-column: 1/2;
@@ -774,14 +755,12 @@ p{
     margin-right: 5vw;
   }
   .name-email-wrapper{
-    
     display: flex;
     flex-direction: column;
     height: fit-content;
     height: -moz-max-content;
     margin-bottom: 0;
     width: 100%;
-    
   }
   .field-name, .field-email{
     width: 100%;
@@ -816,12 +795,10 @@ p{
   img{
     display: block;
     height: 100%;
-
   }
   .teikums{
     grid-column: 1/2;
     grid-row: 1/2;
-    
   }
   .citybee{
     grid-column: 1/2;
@@ -835,9 +812,7 @@ p{
     grid-column: 2/3;
     grid-row: 2/3;
   }
-  .inner-footer-wrapper{
-    display: block;
-  }
+  .inner-footer-wrapper { display: block; }
   .footer-logo-wrapper{
     margin-bottom: 5vw;
     padding-left: 0;
@@ -859,12 +834,6 @@ p{
   }
 }
 @media (max-width: 767px){
-  /* .atbalstitaji-wrapper{
-    width: 80vw;
-
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(6vh, auto));
-  } */
   .atbalstitaji-wrapper
   img{
     transform: scale(0.9);
@@ -872,7 +841,6 @@ p{
   .teikums{
     grid-column: 1/2;
     grid-row: 1/2;
-    
   }
   .citybee{
     grid-column: 1/2;
