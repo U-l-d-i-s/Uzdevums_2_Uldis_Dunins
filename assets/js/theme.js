@@ -1,6 +1,8 @@
-'use strict';
+
 
 $(document).ready(() =>{
+  'use strict';
+
   const burger = $('div.burger');
   const mainNav = $('ul.main-unsorted-list ');
   const gogolisLine = $('.under-golden-logo');
@@ -50,5 +52,4 @@ $(document).ready(() =>{
     }
   }
   $(window).resize(chechWidht).trigger('resize');
-
 });
