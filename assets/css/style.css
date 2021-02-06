@@ -153,6 +153,17 @@ a:hover:after{
   li{
     align-items: center;
   }
+  .arrow-down{
+    position: fixed;
+    bottom: 70px;
+    z-index: 3;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    
+    opacity: 0;
+    cursor: pointer;
+  }
 @media (max-width: 1300px ) and (min-width: 1024px){
   .main-nav{
     width: 76%;
