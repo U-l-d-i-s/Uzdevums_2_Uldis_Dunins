@@ -55,10 +55,21 @@ $(document).ready(() =>{
     clearTimeout(resetTimer);
     arrowOpacity($(arrowDown));
   });
-  
+
+  function scrollbarWidth() {
+    var div = $('<div style="width:50px;height:50px;overflow:hidden;position:absolute;top:-200px;left:-200px;"><div style="height:100px;"></div>');
+    // Append our div, do our calculation and then remove it
+    $('body').append(div);
+    var w1 = $('div', div).innerWidth();
+    div.css('overflow-y', 'scroll');
+    var w2 = $('div', div).innerWidth();
+    $(div).remove();
+    return (w1 - w2);
+  }
   function chechWidht(){
+    const scrollbar = scrollbarWidth();
     let windowSize = $(window).width();
-    if(windowSize <= 1024){
+    if(windowSize <= 1024-scrollbar){
       $('.rekviziti-wrapper').hide();
       $('.piedavajumi-wrapper').hide();
       $('.mouse-event').show();
@@ -72,7 +83,7 @@ $(document).ready(() =>{
       $('.visibility-js').hide();
       $('.burger').hide();
     }
-    if(windowSize <= 767){
+    if(windowSize <= 767-scrollbar){
       $(headerSvg).css('top', '58px');
       $('.kontaktinfo-wrapper').prepend($(gogolisLine));
       console.log('strada');
